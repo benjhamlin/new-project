@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.gradient {
+    background: rgb(180,58,58);
+    background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(29,141,253,1) 50%, rgba(252,69,69,1) 100%);
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.logo-container {
+    min-height: 50vh;
+}
+
+.company-logos {
+    height: 100px;
+    justify-content: space-evenly;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+}
